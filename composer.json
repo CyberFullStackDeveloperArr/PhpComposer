@@ -1,0 +1,20 @@
+{
+    "name": "programmerarr/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ghostcodenight",
+            "email": "code@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Programmerarr\\": "src/"
+        }
+    },
+
+    "require": {
+        "monolog/monolog" : "3.5.0"
+    }
+}
